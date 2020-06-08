@@ -42,11 +42,11 @@
 				</span>
 			</h1>
 			<div class="contents">
-				<div class="leftarea">
-					<ul class="accMenu" style="height:600px">
+				<div class="leftArea">
+					<ul class="accMenu">
 						<li>
 							<h3 class="MenuTt">
-								<img src="resources/Images/Common/Icon/icon01.gif">전표입력
+								<img src="resources/Images/Common/Icon/icon01.gif">"전표입력"
 								<span style="padding-left:20px">
 									<a href="#" style="color:#FDBB00">◀</a>
 									<font>2020년</font>
@@ -153,12 +153,106 @@
 							</ul>
 						</li>
 						<li style="height:268px">
+							<h3 class="MenuTt">
+								<img src="resources/Images/Common/Icon/icon05.gif">
+								"전기재무제표"
+							</h3>
+							<ul>
+								<li>
+									<a href="javascript:OpenWindow()">전기재무상태표</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">거래처별초기이월</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">현장별초기이월</a>									
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">사원별초기이월</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">전기분손익계산서</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">전기분원가명세서</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li style="height:268px">
+							<h3 class="MenuTt">
+								<img src="resources/Images/Common/Icon/icon02.gif">
+								"기본설정"
+							</h3>
+							<ul class="accSubMenu">
+								<li>
+									<a href="javascript:OpenWindow()">회사등록/회계연도</a>
+								</li>	
+								<li>
+									<a href="javascript:OpenWindow()">거래처등록</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">부서/erp사용권한</a>
+									<a href="javascript:OpenWindow()">사원등록</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">현장등록</a>
+									<a href="javascript:OpenWindow()">품목등록/관리</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">계정과목 및 적요</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">환경설정</a>
+									<a href="javascript:OpenWindow()">전료일괄다운</a>
+								</li>
+							</ul>
 						</li>
-						<li>
+						<li class="bd_0" style="height:268px">
+							<h3 class="MenuTt">
+								<img src="resources/Images/Common/Icon/icon03.gif">
+								"부가세관리/전자신고"
+							</h3>
+							<ul class="accSubMenu">
+								<li>
+									<a href="javascript:OpenWindow()">부가세신고서</a>
+									<a href="javascript:OpenWindow()">고정자산취득명세</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">세금계산서합계표</a>
+									<a href="javascript:OpenWindow()">계산서합계표</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">카드매입합계표</a>
+									<a href="javascript:OpenWindow()">카드매출집계표</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">매입세액불공제내역</a>
+									<span style="padding-left:68px;">
+									<a style="background:none" href="javascipt:OpenWindow()">카드매입합계표</a>
+									<a href="#">FQA</a>
+									</span>
+								</li>
+								<li>
+									<a href="#">카드매출차액보기</a>
+								</li>
+								<li>
+									<a href="javascript:OpenWindow()">부가세 전자신고</a>
+									<span style="padding-left:91px;">
+										<a style="background:none" href="#">FAQ</a>
+									</span>
+								</li>
+							</ul>
 						</li>
 					</ul>
+				</div>
+				<div class="memo">
+					<h3 class="fontSt01_ma_b1">MEMO : 회계일기</h3>
+					<p>
+						<textarea name="memo" id="memo" class="textAreaSt01">회계일기</textarea>
+					</p>
+				</div>
+				<div class="rightArea">
+					<h2 class="blind">게시판 영역입니다.</h2>
 				</div>
 			</div>
 		</div>
