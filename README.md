@@ -1,0 +1,2 @@
+싸부넷 ERP 데모 버전 공부
+https://erp.ssabu.net/fa/main.html?co_id=ssabutest
