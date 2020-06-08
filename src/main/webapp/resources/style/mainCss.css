@@ -1,56 +1,180 @@
 @charset "UTF-8";
 
+*{
+	margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-family: "돋움",dotum, Verdana, Arial, Helvetica;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+}
+
+html, body{	
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow-y: hidden;
+}
+
+li{
+	list-style:none;
+	display:list-item;
+}
+
+a{
+	text-decoration:none;
+	border:0;
+	outline:none;
+}
+
+img{
+	border:none;
+}
+
 #test_ssabu{
-	
+	width:100%;
+	height:100%;
+	min-height: 100%;
+	margin:0;
+	padding:0;
+	background-color:#f2f2f2;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
 }
 
 #header{
-	
+	width: 100%;
+	height:30px;
+	background-color:#454545;
+	z-index:99;
+	position:absolute;
+	left:0;
 }
 
+.topmenu {
+	width:1218px; 
+	height:30px; 
+	margin:0 auto; 
+	border-left:1px solid #999; 
+	border-right:1px solid #999;
+	}
+	
 .co_name{
+	float:left;
+	width:330px; 
+	line-height:30px;
+	color:#FFF;
+	font-size:11px;
+	padding-left:30px;
+	}
 	
-}
-
 .reload{
+	float:left;
+	}
 	
-}
+.userInfo { 
+	height:30px; 
+	line-height:30px; 
+	width:350px; 
+	padding-right:37px; 
+	color:#FFF; 
+	text-align:right; 
+	font-size:11px; 
+	float:left;
+	}
+	
+.topmenuList {
+	float:right;
+	}
+	
+.topmenuList li, .reload li {
+	width:109px; 
+	height:22px; 
+	padding-top:8px; 
+	text-align:center; 
+	border-left:1px solid #999; 
+	float:left;
+	}
+	
+.reload li{
+	border-right:1px solid #999;
+	}
 
-.userInfo{
-	
-}
-
-.topmenuList{
-	
+.logo{
+	width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 #container{
-	
+	width: 1175px;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0 18px 0 25px;
+    background: #FFF;
+    overflow: hidden;	
 }
 
 .contents{
-	
+	width: 1175px;
+    padding-bottom: 20px;
+    float: left;
 }
 
 /* leftArea */
 
 .leftArea{
-	
+	width: 802px;
+    margin-right: 25px;
+    float: left;
+}
+
+
+.MenuTt{
+	width: 244px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background: url(../Images/Common/titleBg.jpg) repeat-x;
+    border: 1px solid #50222d;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .accMenu{
-	
+	width: 800px;
+    height: 540px;
+    background: #ececec;
+    border: 1px solid #d8d8d8;
 }
 
-.MenuTt{
-	
-}
-
-.bd_0{
-	
+.accMenu li{
+	height: 301px;
+    float: left;
+    border-right: 1px solid #d4d4d4;
 }
 
 .accSubMenu{
+	width: 266px;
+    padding-top: 11px;
+}
+
+.accSubMenu li {
+    width: 244px;
+    height: 31px;
+    padding-left: 22px;
+    background: url(../Images/Common/accBg.gif) repeat-x bottom;
+}
+.bd_0{
+	border: 0!important;
+}
+
+
+.fontSt01_ma_b1{
 	
 }
 
@@ -65,4 +189,64 @@
 .rightArea{
 	
 }
+
+.qna{
+	
+}
+
+.boardTt{
+	
+}
+
+.fontSt01_01{
+	
+}
+
+.flo_r{
+	
+}
+
+.tableSt01{
+	
+}
+
+.blind{
+	overflow: hidden;
+    position: absolute;
+    top: -1000em;
+    left: -9999em;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999em;
+}
+.right_foot{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

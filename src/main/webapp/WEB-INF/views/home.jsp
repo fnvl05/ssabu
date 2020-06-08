@@ -22,10 +22,14 @@
 				<p class="userInfo">강승현(ssabudemo)님이 로그인 중 입니다.</p>
 				<ul class="topmenuList">
 					<li>
-						<a href ="home.do">로그아웃</a>
+						<a href ="home.do">
+							<img src="resources/Images/Common/Button/logout.gif">
+						</a>
 					</li>
 					<li>
-						<a href ="javascript:bookmark()">즐겨찾기</a>
+						<a href ="javascript:bookmark()">
+							<img src="resources/Images/Common/Button/bookmark.gif">
+						</a>
 					</li>	
 				</ul>
 			</div>
@@ -87,7 +91,7 @@
 						<li>
 							<h3 class="MenuTt">
 								<img src="resources/Images/Common/Icon/icon03.gif">
-								"장부관리"
+								장부관리
 							</h3>
 							<ul class="accSubMenu">
 								<li>
@@ -125,7 +129,7 @@
 						<li class="bd_0">
 							<h3 class="MenuTt">
 							<img src="resources/Images/Common/Icon/icon04.gif">
-							"결산 및 재무제표"
+							결산 및 재무제표
 							</h3>
 							<ul class="accSubMenu">
 								<li>
@@ -155,9 +159,9 @@
 						<li style="height:268px">
 							<h3 class="MenuTt">
 								<img src="resources/Images/Common/Icon/icon05.gif">
-								"전기재무제표"
+								전기재무제표
 							</h3>
-							<ul>
+							<ul class="accSubMenu">
 								<li>
 									<a href="javascript:OpenWindow()">전기재무상태표</a>
 								</li>
@@ -181,7 +185,7 @@
 						<li style="height:268px">
 							<h3 class="MenuTt">
 								<img src="resources/Images/Common/Icon/icon02.gif">
-								"기본설정"
+								기본설정
 							</h3>
 							<ul class="accSubMenu">
 								<li>
@@ -210,7 +214,7 @@
 						<li class="bd_0" style="height:268px">
 							<h3 class="MenuTt">
 								<img src="resources/Images/Common/Icon/icon03.gif">
-								"부가세관리/전자신고"
+								부가세관리/전자신고
 							</h3>
 							<ul class="accSubMenu">
 								<li>
@@ -244,15 +248,120 @@
 							</ul>
 						</li>
 					</ul>
-				</div>
 				<div class="memo">
 					<h3 class="fontSt01_ma_b1">MEMO : 회계일기</h3>
 					<p>
 						<textarea name="memo" id="memo" class="textAreaSt01">회계일기</textarea>
 					</p>
 				</div>
+				</div>
 				<div class="rightArea">
-					<h2 class="blind">게시판 영역입니다.</h2>
+					<div class="QNA">
+						<div class="boardTt">
+							<h3 class="fontSt01_01">프로그램 FAQ</h3>
+							<p class="flo_r">
+								<a href="#">
+									<img src="resources/Images/Common/Button/plus.gif" alt="더보기">
+								</a>
+							</p>
+						</div>
+						<table class="tableSt01" summary="프로그램  FAQ 게시판 입니다.">
+							<caption class="blind">프로그램 FAQ</caption>
+						<colgroup>
+								<col width="60px">
+								<col width="280px">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>번호</th>
+									<th>제목</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style="text-align: center;">번호</td>
+									<td>제목</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="QNA">
+						<div class="boardTt">
+							<h3 class="fontSt01_01">Erp 사용질문</h3>
+							<p class="flo_r">
+								<a href="#">
+									<img src="resources/Images/Common/Button/plus.gif" alt="더보기">
+								</a>
+							</p>
+						</div>
+						<table class="tableSt01" summary="실무 QNA 게시판">
+							<caption class="blind">실무 QnA</caption>
+							<colgroup>
+								<col width="60px">
+								<col width="280px">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>번호</th>
+									<th>제목</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style="text-align: center;">번호</td>
+									<td>제목</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="notice">
+						<div class="boardTt">
+							<h3 class="fontSt01_01">공지사항</h3>
+							<p class="flo_r">
+								<a href="#">
+									<img src="resources/Images/Common/Button/plus.gif" alt="더보기">
+								</a>
+							</p>
+						</div>
+						<table class="tableSt01" summary="공지사항 게시판">
+							<caption class="blind">공지사항</caption>
+							<colgroup>
+								<col width="60px">
+								<col width="280px">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>번호</th>
+									<th>제목</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td style="text-align: center;">번호</td>
+									<td>제목</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="right_foot">
+						<ul>
+							<li>
+								<a href="#">
+									<img src="resources/Images/Common/Button/button01.gif" alt="1:1문의">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="resources/Images/Common/Button/button02.gif" alt="업무의뢰 상담">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="resources/Images/Common/Button/button03.gif" alt="원격지원">
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
