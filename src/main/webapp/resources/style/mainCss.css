@@ -167,15 +167,16 @@ img{
     width: 244px;
     height: 31px;
     padding-left: 22px;
-    background: url(../Images/Common/accBg.gif) repeat-x bottom;
 }
 .bd_0{
 	border: 0!important;
 }
 
 
-.fontSt01_ma_b1{
-	
+.fontSt01{
+	font-size: 14px;
+    font-weight: bold;
+    color: #7a393f;
 }
 
 .textAreaSt01{
@@ -187,27 +188,35 @@ img{
 /* rightArea */
 
 .rightArea{
-	
+	width: 348px;
+    float: left;
 }
 
 .qna{
-	
+	width: 348px;
+    margin-bottom: 31px;
+    float: left;
 }
 
 .boardTt{
-	
+	width: 348px;
+    margin-bottom: 7px;
+    float: left;
 }
 
-.fontSt01_01{
-	
+.flo_l{
+	float: left;
 }
 
 .flo_r{
-	
+	float: right;
 }
 
 .tableSt01{
-	
+	width: 100%;
+    border-collapse: collapse;
+    border-top: 3px solid #d2c2b2;
+    float: left;
 }
 
 .blind{
@@ -225,8 +234,10 @@ img{
     line-height: 0;
     text-indent: -9999em;
 }
-.right_foot{
-	
+.right_foot li{
+	float:left;
+	padding-right:17px;
+	top:10px
 }
 
 

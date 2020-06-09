@@ -50,10 +50,10 @@
 					<ul class="accMenu">
 						<li>
 							<h3 class="MenuTt">
-								<img src="resources/Images/Common/Icon/icon01.gif">"전표입력"
+								<img src="resources/Images/Common/Icon/icon01.gif">전표입력
 								<span style="padding-left:20px">
 									<a href="#" style="color:#FDBB00">◀</a>
-									<font>2020년</font>
+									<font style="color:white;">2020년</font>
 									<a href="#" style="color:#FDBB00">▶</a>
 								</span>
 								<input type="hidden" name="year" id="year" value="2020">
@@ -62,7 +62,7 @@
 							</h3>
 							<ul class="accSubMenu">
 								<li>
-									<a href="javascript:OpenWindow()">매입매출전표 (2020년)</a>
+									<a href="chit/incomeOutcome.do" onclick="window.open(this.href,'incomeOutcome','width=1200,height=800');return false;">매입매출전표 (2020년)</a>
 								</li>
 								<li>
 									<a href="javascript:OpenWindow()">일반전표 (2020년)</a>
@@ -189,7 +189,7 @@
 							</h3>
 							<ul class="accSubMenu">
 								<li>
-									<a href="javascript:OpenWindow()">회사등록/회계연도</a>
+									<a href="basicSetting/NewCompany.do" onclick="window.open(this.href,'NewCompany','width=600,height=400');return false;">회사등록/회계연도</a>
 								</li>	
 								<li>
 									<a href="javascript:OpenWindow()">거래처등록</a>
@@ -249,7 +249,7 @@
 						</li>
 					</ul>
 				<div class="memo">
-					<h3 class="fontSt01_ma_b1">MEMO : 회계일기</h3>
+					<h3 class="fontSt01">MEMO : 회계일기</h3>
 					<p>
 						<textarea name="memo" id="memo" class="textAreaSt01">회계일기</textarea>
 					</p>
@@ -258,9 +258,9 @@
 				<div class="rightArea">
 					<div class="QNA">
 						<div class="boardTt">
-							<h3 class="fontSt01_01">프로그램 FAQ</h3>
+							<h3 class="fontSt01 flo_l">프로그램 FAQ</h3>
 							<p class="flo_r">
-								<a href="#">
+								<a href="homeNewPage/FAQ.do" target="_blank">
 									<img src="resources/Images/Common/Button/plus.gif" alt="더보기">
 								</a>
 							</p>
@@ -287,9 +287,9 @@
 					</div>
 					<div class="QNA">
 						<div class="boardTt">
-							<h3 class="fontSt01_01">Erp 사용질문</h3>
+							<h3 class="fontSt01 flo_l">Erp 사용질문</h3>
 							<p class="flo_r">
-								<a href="#">
+								<a href="homeNewPage/QNA.do" target="_blank">
 									<img src="resources/Images/Common/Button/plus.gif" alt="더보기">
 								</a>
 							</p>
@@ -314,11 +314,11 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="notice">
+					<div class="QNA">
 						<div class="boardTt">
-							<h3 class="fontSt01_01">공지사항</h3>
+							<h3 class="fontSt01 flo_l">공지사항</h3>
 							<p class="flo_r">
-								<a href="#">
+								<a href="homeNewPage/NOTICE.do" target="_blank">
 									<img src="resources/Images/Common/Button/plus.gif" alt="더보기">
 								</a>
 							</p>
@@ -346,17 +346,17 @@
 					<div class="right_foot">
 						<ul>
 							<li>
-								<a href="#">
+								<a href="homeNewPage/question.do" target="_blank">
 									<img src="resources/Images/Common/Button/button01.gif" alt="1:1문의">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="homeNewPage/consulting.do">
 									<img src="resources/Images/Common/Button/button02.gif" alt="업무의뢰 상담">
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="homeNewPage/remoteSupport.do">
 									<img src="resources/Images/Common/Button/button03.gif" alt="원격지원">
 								</a>
 							</li>
