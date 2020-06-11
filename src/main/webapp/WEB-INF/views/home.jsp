@@ -189,7 +189,7 @@
 							</h3>
 							<ul class="accSubMenu">
 								<li>
-									<a href="basicSetting/NewCompany.do" onclick="window.open(this.href,'NewCompany','width=600,height=400');return false;">회사등록/회계연도</a>
+									<a href="basicSetting/NewCompany.do" onclick="window.open(this.href,'NewCompany','width=1100,height=600');return false;">회사등록/회계연도</a>
 								</li>	
 								<li>
 									<a href="javascript:OpenWindow()">거래처등록</a>
@@ -351,12 +351,12 @@
 								</a>
 							</li>
 							<li>
-								<a href="homeNewPage/consulting.do">
+								<a href="homeNewPage/consulting.do" target="_blank">
 									<img src="resources/Images/Common/Button/button02.gif" alt="업무의뢰 상담">
 								</a>
 							</li>
 							<li>
-								<a href="homeNewPage/remoteSupport.do">
+								<a href="homeNewPage/remoteSupport.do" target="blank">
 									<img src="resources/Images/Common/Button/button03.gif" alt="원격지원">
 								</a>
 							</li>
